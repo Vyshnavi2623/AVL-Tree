@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AVL Tree Visualization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AVL Tree Visualization</h1>
+
+<div class="container">
+
+  <div class="main">
+    <div class="controls">
+      <input type="number" id="value" placeholder="Enter value">
+      <button onclick="insert()">Insert</button>
+    </div>
+
+    <div id="tree"></div>
+  </div>
+
+  <div class="sidebar">
+    <h3>Insertion History</h3>
+    <ul id="history"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

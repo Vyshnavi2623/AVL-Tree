@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#tree {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+/* Node styling */
+.node {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  line-height: 50px;
+  font-weight: bold;
+  background: white;
+}
+
+/* Edge lines */
+.line {
+  position: absolute;
+  height: 2px;
+  background: black;
+  transform-origin: 0 0;
+}
+.container {
+  display: flex;
+}
+
+.main {
+  width: 75%;
+}
+
+.sidebar {
+  width: 25%;
+  border-left: 2px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.sidebar h3 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
