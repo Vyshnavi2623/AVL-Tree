@@ -98,10 +98,14 @@ function renderTree() {
 
     const div = document.createElement("div");
     div.className = "node";
+
+
     div.innerText = node.val;
     div.style.left = `${x}px`;
     div.style.top = `${y}px`;
     container.appendChild(div);
+    
+
 
     if (node.left) {
       drawLine(x + 25, y + 50, x - gap + 25, y + levelGap);
